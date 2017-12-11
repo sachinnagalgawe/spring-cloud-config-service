@@ -1,0 +1,13 @@
+server:
+  port: 8888
+  
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/sachinnagalgawe/spring-cloud-config
+          username: sachinnagalgawe
+          password: Sachin@1234
+          search-paths: '{profile}'
+          force-pull: true
